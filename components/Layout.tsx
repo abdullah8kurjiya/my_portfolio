@@ -40,7 +40,7 @@ const Layout = ({ children }:Props) => {
 					content="Abdullah Kurjiya's Portfolio"
 				/>
 				<meta property="og:image" content="/Abdullah.png" />
-				<meta property="og:url" content="" />
+				<meta property="og:url" content="https://abdullah-kurjiya-portfolio.vercel.app/" />
 			</Head>
       <TopLeftImg />
       <Nav />
