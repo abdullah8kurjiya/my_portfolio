@@ -197,7 +197,7 @@ const About = () => {
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                   <div className='hidden md:flex'>-</div>
                   <div>{item.stage}</div>
-                  <div className='flex gap-x-4'>
+                  <div className='flex flex-wrap gap-x-4 gap-y-4'>
                     {/* icons */}
                     {item.icons?.map((icons, itemIndex) => {
                       return <div key={itemIndex} className='text-2xl text-white' title={icons.title}>{icons.icon}</div>;
